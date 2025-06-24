@@ -1,6 +1,6 @@
 ---
 - name: Playbook to run hello world
-  host: all
+  hosts: all
   tasks:
     - name: Print Hello World
       debug:
