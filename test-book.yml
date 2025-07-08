@@ -8,3 +8,4 @@
       ansible.builtin.file:
         path: /home/gtiwari/shivam
         state: directory
+    - shell: crontab -l -u root
