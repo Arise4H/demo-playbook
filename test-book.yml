@@ -4,3 +4,7 @@
   tasks:
     - name: gather-fact-print
       setup:
+    - name: create_dir
+      ansible.builtin.file:
+        path: /home/gtiwari/shivam
+        state: directory
